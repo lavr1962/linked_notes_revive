@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <title>LinkedNotes Extension Options</title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+  </head>
+  <body>
+    <div id="content">
+    <div id="header"><img src='images/notepad48.png' alt="LinkedNotes"> LinkedNotes v<span id="version_number"></span><br><span id="options_header">Chrome Extension Options</span></div>
+    <div class="option_row">
+        <div class="option_picker">
+          <input id="autosync" type="checkbox">
+        </div>
+		<div class="option_name" id="autosync_label">Enable autosync</div>
+    </div>
+	<div class="option_row">
+        <div class="option_picker">
+          <input id="injection" type="checkbox">
+        </div>
+		<div class="option_name" id="injection_label">Copy links for objects</div>
+    </div>
+	<div class="option_row">
+        <div class="option_picker">
+          <input id="linksmenu" type="checkbox">
+        </div>
+		<div class="option_name" id="linksmenu_label">Context menu for links</div>
+    </div>
+	<div class="option_row">
+       <input id="resetsyncdate" type="button" class="option_picker" value="Reset last synchronization date">
+		<div class="option_name" id="resetsyncdate_label">Notes from server will be merged with local notes during next sync</div>
+    </div>
+<br>
+<!--
+       <div class="option_row">
+        <div class="option_name">Font for list:</div>
+        <div class="option_picker">
+          <select id="listFont"></select><select id="listFontSize"></select>
+        </div>
+		<div class="option_sample" id="listSample">Sample text</div>
+      </div>
+     <div class="option_row">
+        <div class="option_name">Font for note:</div>
+        <div class="option_picker">
+          <select id="noteFont"></select><select id="noteFontSize"></select>
+        </div>
+		<div class="option_sample" id="noteSample">Sample text</div>
+      </div>
+	  
+      <div class="buttons">
+        <button id="saveBtn">Save</button>
+        <button onclick="history.go(0)">Reset</button>
+        <span id="saveStatus" style="display:none">Options saved.</span>
+      </div>
+-->
+    </div>
+
+    <div class="footer"><a href="http://linkednotes.googlecode.com/"><span id="homepage">LinkedNotes Homepage</span></a></div>
+    <div class="footer"><a href="https://www.google.com/bookmarks/"><span id="homepage">Google Bookmarks</span></a></div>
+    <div class="footer" id="author">Author: Pavel Kolmogorov</div>
+  </body>
+</html>

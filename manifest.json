@@ -1,0 +1,26 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/notepad24.png",
+      "default_popup": "popup.html",
+      "default_title": "LinkedNotes"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "images/notepad128.png",
+      "16": "images/sticky_note_pin.png",
+      "24": "images/notepad24.png",
+      "48": "images/notepad48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+1Lzi/v4BKUjQTtedJ+Qr68K7+UfAiXqWyonsVcuBR/WwvBpMRfoiqYiLoKYUZSt69VTSEhmJCBvHnpt1oJhgdj9Y9rosk6Y5O1KGOyo/iJW72ssaZ6Khd0OMFyGATxdcH/sHnqQx3CfHM5J/0WRyY5iA5I0XUlswMOcS3GUvFQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "6.0.0.0",
+   "name": "LinkedNotes",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "tabs", "unlimited_storage", "https://www.google.com/bookmarks/*", "http://*/", "https://*/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.27"
+}

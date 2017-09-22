@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="popup.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="jquery.js">
+        </script>
+        <script type="text/javascript" src="splitter.js">
+        </script>
+        <script type="text/javascript" src="popup.js">
+        </script>
+        <script type="text/javascript" src="jquery.contextmenu.r2.packed.js">
+        </script>
+    </head>
+    <body>
+        <div id="Menu">
+        	<div id="column-left"><a href="javascript:void(0);" class="btn" id="add_note"><span class="add_button"></span></a></div>
+            <div id="column-right"><a href="javascript:void(0);" class="btn" id="filter"><span class="filter_button">&nbsp;</span></a><a href="javascript:void(0);" class="btn" id="sync"><span class="sync_button"></span></a></div>
+            <div id="column-centry"><input type="text" placeholder="" spellcheck="false" name="search" id="quick_search"></div>
+        </div>
+        <div id="LinkedNotes">
+            <div id="NotesList">
+            </div>
+            <div id="NoteText">
+                <textarea class="note" cols="43" rows="50" autofocus="autofocus">
+                </textarea>
+            </div>
+        </div>
+        <div class="contextMenu" id="myMenu1">
+            <ul>
+                <li id="link">
+                    <img alt="" src="images/chain.png" /><span>Open</span>
+                </li>
+				<li id="copy">
+                    <img alt="" src="images/document-copy.png" /><span>Copy</span>
+                </li>
+				<li id="font">
+                    <img alt="" src="images/magnifier.png" /><span><font style="font-variant: small-caps;">a</font>&rarr;A</span>
+                </li>
+            </ul>
+        </div>
+		<div class="message">
+		</div>
+    </body>
+</html>

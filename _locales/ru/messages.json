@@ -1,0 +1,118 @@
+{
+   "add_button": {
+      "description": "Button adds new note",
+      "message": "Добавить"
+   },
+   "add_note": {
+      "description": "Title for button adds new note",
+      "message": "Добавить заметку"
+   },
+   "author": {
+      "message": "Автор: Колмогоров Павел"
+   },
+   "autosync_label": {
+      "message": "Автоматическая синхронизация"
+   },
+   "clear_filter": {
+      "description": "Title for filter button when quick search not empty",
+      "message": "Очистить быстрый поиск"
+   },
+   "copy_link_to_note": {
+      "description": "Menu item thats copy selected link to notes",
+      "message": "Копировать ссылку в заметки"
+   },
+   "copy_to_note": {
+      "description": "Menu item thats copy selected text to notes",
+      "message": "Копировать в заметки"
+   },
+   "extDescription": {
+      "message": "Расширение добавляет удобный список заметок, который синхронизируется с Google Bookmarks. Выделите на странице текст и сохраните в заметках командой контекстного меню. Заметка сохраняется вместе с адресом страницы."
+   },
+   "filter": {
+      "description": "Title for filter button",
+      "message": "Показать заметки для текущей страницы"
+   },
+   "homepage": {
+      "message": "Домашняя страница LinkedNotes"
+   },
+   "injection_label": {
+      "message": "Сохранять ссылки для объектов"
+   },
+   "insert_from_note": {
+      "message": "Вставить заметку"
+   },
+   "last_sync": {
+      "description": "Title for extension icon about time of last synchronization",
+      "message": "Последняя синхронизация:"
+   },
+   "linksmenu_label": {
+      "message": "Контекстное меню для ссылок"
+   },
+   "menu_copy": {
+      "message": "Копировать"
+   },
+   "menu_link": {
+      "message": "Открыть"
+   },
+   "msg_need_login": {
+      "message": "Вы должны войти в систему"
+   },
+   "msg_sync_error": {
+      "message": "Ошибка синхронизации"
+   },
+   "msg_sync_success": {
+      "message": "Синхронизация успешно завершена"
+   },
+   "msg_sync_with_errors": {
+      "message": "Синронизация прошла с ошибками"
+   },
+   "options": {
+      "description": "Button shows page with options",
+      "message": "Настройки"
+   },
+   "options_header": {
+      "message": "Настройки расширения"
+   },
+   "quick_search": {
+      "description": "Text for blank search input",
+      "message": "Быстрый поиск"
+   },
+   "remove_note": {
+      "description": "Button deletes selected note",
+      "message": "Удалить заметку"
+   },
+   "resetsyncdate_button": {
+      "message": "Сбросить время последней синхронизации"
+   },
+   "resetsyncdate_label": {
+      "message": "Следующая синхронизация объединит локальные заметки и заметки на сервере"
+   },
+   "sync": {
+      "description": "Title for button for synchronization with Google bookmarks",
+      "message": "Синхронизировать с Google Bookmarks"
+   },
+   "sync_button": {
+      "description": "Button for synchronization",
+      "message": "Синхр"
+   },
+   "title_date": {
+      "description": "Last modified date tooltip",
+      "message": "Редактировалась: $date$",
+      "placeholders": {
+         "date": {
+            "content": "$1",
+            "example": "12 jul 2010"
+         }
+      }
+   },
+   "title_url": {
+      "description": "Note source URL tooltip",
+      "message": "Источник: $url$",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "http://google.com/"
+         }
+      }
+   }
+}
