@@ -289,7 +289,7 @@ function GoogleBookmarks(){
     
     this.ParseBookmarks = function(bookmarksXml){
         if (gbm) {
-            gbm.sig = $(bookmarksXml).find("signature:first").text();
+            gbm.sig = $(bookmarksXml).find("smh\\:signature:first").text();
         }
         if (logging) {
             console.log(bookmarksXml);
@@ -301,15 +301,15 @@ function GoogleBookmarks(){
             var bookmark = $(this);
             var bm = {
                 id: new Array(),
-                title: bookmark.find("bkmk_title:first").text(),
+                title: bookmark.find("smh\\:bkmk_title:first").text(),
                 url: bookmark.find("link:first").text(),
-                note: bookmark.find("bkmk_annotation:first").text(),
+                note: bookmark.find("smh\\:bkmk_annotation:first").text(),
                 timestamp: new Date(bookmark.find("pubDate:first").text()),
                 TitleDate: function(){
                     return new Date(parseInt(this.title));
                 }
             };
-            bm.id.push(bookmark.find("bkmk_id:first").text());
+            bm.id.push(bookmark.find("smh\\:bkmk_id:first").text());
             bm.url = bm.url.replace(bm.title, "");
             if (bm.url.substring(bm.url.length - 1) == "3") {
                 bm.url = bm.url.substring(0, bm.url.length - 3);
